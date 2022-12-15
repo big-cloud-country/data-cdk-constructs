@@ -13,6 +13,10 @@ const project = new awscdk.AwsCdkConstructLibrary({
   releaseBranches: 'main',
   releaseToNpm: true,
   releaseWorkflow: true,
+  publishToPypi: {
+    distName: 'data-cdk-constructs',
+    module: 'data_cdk_constructs',
+  },
   projectType: awscdk.AwsCdkConstructLibrary,
   packageManager: javascript.NodePackageManager.NPM,
   mergify: false,
