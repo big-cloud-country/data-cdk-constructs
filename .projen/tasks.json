@@ -208,6 +208,9 @@
         },
         {
           "spawn": "eslint"
+        },
+        {
+          "exec": "echo 'No tests yet'"
         }
       ]
     },
